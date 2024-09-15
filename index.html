@@ -21,6 +21,17 @@
 		<font color="grey">ver 0.01</font>
 		</footer>
 	</Center>
+
+	 <script>
+        let elm = document.getElementById("GFG");
+ 
+        function Fun_call() {
+            document.addEventListener('contextmenu',
+                event => event.preventDefault());
+ 
+            elm.innerHTML = "Right click disabled";
+        }        
+    </script>
 	
 </body>
 </html>
